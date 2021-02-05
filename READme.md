@@ -12,4 +12,3 @@
 
 Quando for usar no insomnia, devemos colocar esse modelo e apenas mudar os dados para que não tenha erro na aplicação.
 
-// https://www.youtube.com/watch?v=dHevQDdLMeE&list=PL2hDwB8DzXGNLdf31ilTYi9yKs3mf62WQ&index=2
