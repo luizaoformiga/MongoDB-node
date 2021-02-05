@@ -22,7 +22,7 @@ Na linha de comando, use a seguinte linha de código:
 
 npx nodemon index.js
 
-Tenha se certificado de instalar no pelo terminal a pasta node_modules para ter as dependências necessárias ´do projeto. E claro, caso queira ser um pouco mais prático, no arquivo package.json já tem na parte "scripts" o comando pronto para rodar com apenas um clique.
+Tenha se certificado de instalar pelo terminal a pasta node_modules para ter as dependências necessárias do projeto. E claro, caso queira ser um pouco mais prático, no arquivo package.json já tem na parte "scripts" o comando pronto para rodar com apenas um clique.
 
 #### controllers
 
@@ -30,7 +30,7 @@ Essa pasta tem a tarefa de exportar nossos métodos HTTP que foram criados com a
 
 #### routes
 
-E bom, esse arquivo nos passam as rotas de página definindo o nosso CRUD, Logo em seguida nós expotamos ele diretamente para o arquivo principal da aplicação, o index.js.
+E bom, esse arquivo nos passam as rotas de página definindo o nosso CRUD, Logo em seguida nós exportamos ele diretamente para o arquivo principal da aplicação, o index.js.
 
 
 #### index.js

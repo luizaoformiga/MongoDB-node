@@ -13,7 +13,7 @@ app.use(cors());
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost:27017/course', {useNewUrlParser: true, useUnifiedTopology: true})
-   .then(() => console.log("OK! mongoDB conectado"))
+   .then(() => console.log("OK! mongoDB connected!"))
    .catch(err => console.log("ERROR 404" + err))
 
 mongoose.set('useNewUrlParser', true);
