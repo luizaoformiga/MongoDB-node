@@ -24,5 +24,10 @@ module.exports = {
     async update (request, response) {
         const users = await User.findByIdAndUpdate(request.params.id, request.body, { new: true });
         return response.json(users);
+    },
+    // DELETE
+    async delete (request, response) {
+        await User.findByIdAndRemove(request.params.id);
+        return response.send();
     }  
 }

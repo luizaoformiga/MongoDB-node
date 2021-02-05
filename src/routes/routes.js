@@ -7,5 +7,6 @@ routes.post('/users', userControl.insert);
 routes.get('/users', userControl.index);
 routes.get('/users/:id', userControl.details);
 routes.put('/users/:id', userControl.update);
+routes.delete('/users/:id', userControl.delete);
 
 module.exports = routes;
