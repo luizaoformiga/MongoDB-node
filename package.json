@@ -1,25 +1,29 @@
 {
   "name": "mongo-react-node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "node": "npx nodemon index.js"
+    "node": "nodemon src/server.js"
   },
   "author": "Luiz Lima",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "lite-server": "^2.6.1",
-    "mongoose": "^5.11.14",
-    "mongoose-paginate": "^5.0.3",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "mongoose": "^5.11.14"
   },
   "devDependencies": {
     "nodemon": "^2.0.7",
-    "require-dir": "^1.2.0"
+    "prettier": "2.2.1",
+    "husky": "6.0.0",
+    "eslint": "7.23.0",
+    "@babel/node": "^7.13.12",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "7.12.13",
+    "@types/cors": "^2.8.10",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "8.2.2",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
   
